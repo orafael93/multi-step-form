@@ -7,12 +7,10 @@ export const Wrapper = styled.div`
         justify-content: center;
         align-items: center;
 
-        max-width: 80%;
         height: 100%;
 
         @media (max-width: ${theme.breakpoints.tablet}px) {
-            max-width: 90%;
-            padding: 50px 0;
+            padding: 30px 24px;
         }
     `}
 `

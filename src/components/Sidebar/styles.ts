@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
         padding: 40px 32px;
 
         background-color: ${theme.purple};
-        background-image: url('/bg-sidebar-desktop.svg');
+        background-image: url('/multi-step-form/bg-sidebar-desktop.svg');
         background-repeat: no-repeat;
         background-position-y: bottom;
         background-size: cover;
@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
             height: fit-content;
 
             background: ${theme.purple};
-            background-image: url('/bg-sidebar-mobile.svg');
+            background-image: url('/multi-step-form/bg-sidebar-mobile.svg');
             background-position: center;
             background-size: 100%;
             background-repeat: no-repeat;
@@ -61,21 +61,21 @@ export const Step = styled.button`
     display: flex;
     gap: 1rem;
     align-items: center;
-    
+
     background: transparent;
     border: none;
     padding: 0;
-    
+
     width: 100%;
     text-align: left;
-    
+
     cursor: pointer;
-    
+
     &:disabled {
         cursor: not-allowed;
         opacity: 0.7;
     }
-    
+
     &:focus-visible {
         outline: 2px solid white;
         outline-offset: 4px;
