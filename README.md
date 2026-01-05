@@ -13,8 +13,13 @@ A multi-step form application developed with a strong focus on accessibility, pe
 The main highlight of this project is that **I did not use external libraries for form management** (like Formik or React Hook Form). All the logic for state, validation, and navigation between steps was implemented using **Custom Hooks**.
 
 This was an intentional architectural decision to:
-*   **Avoid "bundle bloat"**: Keeping the application light and fast.
-*   **Have full control**: Managing the logic exactly as needed without dependencies.
+
+-   **Avoid "bundle bloat"**: Keeping the application light and fast.
+-   **Have full control**: Managing the logic exactly as needed without dependencies.
+
+## 🔗 Live Preview
+
+Check out the live version of the application here: [https://orafael.dev/multi-step-form/](https://orafael.dev/multi-step-form/)
 
 ## ✨ Features
 
@@ -78,7 +83,7 @@ To run the project in development mode:
 npm run dev
 ```
 
-The project will open automatically in your browser (usually at `http://localhost:5173`).
+The project will open automatically in your browser (usually at `http://localhost:5173/multi-step-form`).
 
 ### Build for Production
 
