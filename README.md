@@ -17,10 +17,6 @@ This was an intentional architectural decision to:
 -   **Avoid "bundle bloat"**: Keeping the application light and fast.
 -   **Have full control**: Managing the logic exactly as needed without dependencies.
 
-## 🔗 Live Preview
-
-Check out the live version of the application here: [https://orafael.dev/multi-step-form/](https://orafael.dev/multi-step-form/)
-
 ## ✨ Features
 
 -   **100% Accessibility**: The application follows WCAG guidelines strictly.
